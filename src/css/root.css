@@ -1,0 +1,30 @@
+@font-face {
+  src: url(../../public/fonts/Estedad-Medium.ttf);
+  font-family: estedad;
+}
+:root {
+  --yellow-theme-color: #fdb713;
+  --blue-theme-color: #194bf0;
+  --border-color: #cbcaca;
+  --light-p-color: #cbcaca;
+  --white-color: #fff;
+  --black-color: black;
+  --white-p-color-primary: #fff;
+  --black-p-color-primary: #000000;
+  --white-background-theme-icon: #F2F2F2;
+}
+body.night-mode {
+  --yellow-theme-color: #fdb713;
+  --blue-theme-color: #194bf0;
+  --border-color: #cbcaca;
+  --light-p-color: #cbcaca;
+  --white-color: #1a1a1d;
+  --black-color: #fff;
+  --white-background-theme-icon: #2b2b2b;
+}
+body.night-mode .header_fixed-wrapper-switch-theme_btn_img-sun {
+  display: none;
+}
+body.night-mode .header_fixed-wrapper-switch-theme_btn_img-moon {
+  display: inline;
+}

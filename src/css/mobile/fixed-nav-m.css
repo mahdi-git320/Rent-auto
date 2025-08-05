@@ -1,0 +1,85 @@
+.header_fixed {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 9999;
+  background-color: var(--white-color);
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 96px;
+  border-radius: 0px 0px 30px 30px;
+  .header_fixed-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin-right: 15px;
+    position: relative;
+  }
+  .header_fixed-wrapper-right {
+    display: flex;
+    margin-right: 30px;
+  }
+  .header_fixed-wrapper-left_a {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue-theme-color);
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+    margin-left: 30px;
+    text-decoration: none;
+    .header_fixed-wrapper-left_p {
+      font-family: estedad;
+      color: var(--white-color);
+      font-weight: normal;
+    }
+  }
+  .header_fixed-wrapper-center-nav {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    height: 35px;
+    .header_fixed-wrapper-center-nav_items_p {
+      font-family: estedad;
+      font-weight: normal;
+      font-size: 14px;
+      color: var(--black-color);
+    }
+    .header_fixed-wrapper-center-nav_a {
+      text-decoration: none;
+    }
+  }
+  .header_fixed-wrapper-mobile-search {
+    display: flex;
+    .header_fixed-wrapper-mobile-search_btn {
+      background-color: var(--white-color);
+      border: 0;
+      margin-left: 20px;
+    }
+    .header_fixed-wrapper-mobile-serach_login {
+      display: block;
+    }
+  }
+  .header_fixed-wrapper-switch-theme_btn {
+    padding: 5px;
+    background-color: var(--white-color);
+    border: 0;
+    background-color: var(--white-background-theme-icon);
+    border-radius: 20px;
+    margin-right: 20px; 
+  .header_fixed-wrapper-switch-theme_btn_img-moon{
+    display: none;
+  }
+  }
+  .header_fixed-wrapper-solution{
+    width: 40px;
+    display: none;
+  }
+}
